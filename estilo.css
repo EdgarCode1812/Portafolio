@@ -400,6 +400,21 @@ html {
     }
 }
 
+.skills .skill .mysql {
+    width: 0%;
+    animation: 2s mysql forwards;
+}
+
+@keyframes mysql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
 .skills .skill .bootstrap {
     width: 0%;
     animation: 2s bootstrap forwards;
